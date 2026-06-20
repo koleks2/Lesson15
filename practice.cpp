@@ -1,55 +1,55 @@
-#include <iostream>
-
-using namespace std;
-
-struct point {
-    int x;
-    int y;
-};
-struct fraction {
-    int num;
-    int den;
-};
-struct WashingMachine {
-    char company[20];
-    char color[20];
-
-    int width;
-    int length;
-    int height;
-
-    int power;
-    int speed;
-    int temp;
-};
-struct Animal {
-    char name[20];
-    char type[20];
-    char nick[20];
-};
-union Number {
-    int s;
-    unsigned int u;
-};
-struct Student {
-    char name[40];
-
-    unsigned m1 : 1;
-    unsigned m2 : 1;
-    unsigned m3 : 1;
-    unsigned m4 : 1;
-    unsigned m5 : 1;
-    unsigned m6 : 1;
-    unsigned m7 : 1;
-    unsigned m8 : 1;
-    unsigned m9 : 1;
-    unsigned m10 : 1;
-};
-
-int distance(point a, point b);
-void voice(Animal a);
-
-int main() {
+//#include <iostream>
+//
+//using namespace std;
+//
+//struct point {
+//    int x;
+//    int y;
+//};
+//struct fraction {
+//    int num;
+//    int den;
+//};
+//struct WashingMachine {
+//    char company[20];
+//    char color[20];
+//
+//    int width;
+//    int length;
+//    int height;
+//
+//    int power;
+//    int speed;
+//    int temp;
+//};
+//struct Animal {
+//    char name[20];
+//    char type[20];
+//    char nick[20];
+//};
+//union Number {
+//    int s;
+//    unsigned int u;
+//};
+//struct Student {
+//    char name[40];
+//
+//    unsigned m1 : 1;
+//    unsigned m2 : 1;
+//    unsigned m3 : 1;
+//    unsigned m4 : 1;
+//    unsigned m5 : 1;
+//    unsigned m6 : 1;
+//    unsigned m7 : 1;
+//    unsigned m8 : 1;
+//    unsigned m9 : 1;
+//    unsigned m10 : 1;
+//};
+//
+//int distance(point a, point b);
+//void voice(Animal a);
+//
+//int main() {
     // task 1
     /*
     point A = { 2, 3 };
@@ -112,14 +112,14 @@ int main() {
         << s.m9 << ' '
         << s.m10 << ' ';
      */
-}
-
-int distance(point a, point b) {
-    int dx = a.x - b.x;
-    int dy = a.y - b.y;
-
-    return dx * dx + dy * dy;
-}
-void voice(Animal a) {
-    cout << "The creature gives a voice" << endl;
-}
+//}
+//
+//int distance(point a, point b) {
+//    int dx = a.x - b.x;
+//    int dy = a.y - b.y;
+//
+//    return dx * dx + dy * dy;
+//}
+//void voice(Animal a) {
+//    cout << "The creature gives a voice" << endl;
+//}
